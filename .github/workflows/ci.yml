@@ -49,6 +49,9 @@ jobs:
       - name: Linting
         run: staticcheck ./...
 
+on:
+  push:
+    branches: [main]        
   Deploy:
     name: Deploy
     runs-on: ubuntu-latest
