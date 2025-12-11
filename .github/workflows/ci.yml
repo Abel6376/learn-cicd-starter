@@ -64,4 +64,4 @@ jobs:
           go-version: "1.25.1"
       
       - name: Build Application
-        run: sh scripts/buildprod
+        run: sh ./scripts/buildprod.sh
