@@ -49,12 +49,7 @@ jobs:
       - name: Linting
         run: staticcheck ./...
 
-on:
-  push:
-    branches: [main]
-
-jobs:
-  deploy:
+  Deploy:
     name: Deploy
     runs-on: ubuntu-latest
 
